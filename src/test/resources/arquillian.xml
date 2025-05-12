@@ -22,8 +22,8 @@
     <container default="true" qualifier="glassfish">
         <configuration>
             <property name="allowConnectingToRunningServer">false</property>
-            <property name="debug">true</property>
-            <property name="suspend">true</property>
+            <property name="debug">false</property>
+            <property name="suspend">false</property>
         </configuration>
     </container>
 </arquillian>
